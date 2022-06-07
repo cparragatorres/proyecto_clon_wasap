@@ -50,10 +50,10 @@ class _HomePageState extends State<HomePage>
               child: Text("CHAT",style: TextStyle(fontWeight: FontWeight.bold,),),
             ),
             Tab(
-              child: Text("CHAT",style: TextStyle(fontWeight: FontWeight.bold,),),
+              child: Text("STATUS",style: TextStyle(fontWeight: FontWeight.bold,),),
             ),
             Tab(
-              child: Text("CHAT",style: TextStyle(fontWeight: FontWeight.bold,),),
+              child: Text("CALLS",style: TextStyle(fontWeight: FontWeight.bold,),),
             ),
           ],
         ),
