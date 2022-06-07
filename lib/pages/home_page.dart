@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_clon_wasap/pages/chat_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -64,9 +65,9 @@ class _HomePageState extends State<HomePage>
         controller: _tabController,
         children: [
           Center(child: Text("Pagina1")),
-          Center(child: Text("Pagina2")),
-          Center(child: Text("Pagina3")),
-          Center(child: Text("Pagina4")),
+          ChatPage(),
+          Center(child: Text("Status")),
+          Center(child: Text("Calls")),
         ],
       ),
     );
