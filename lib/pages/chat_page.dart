@@ -32,6 +32,32 @@ class ChatPage extends StatelessWidget {
                 fontSize: 13.0,
               ),
             ),
+            trailing: Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Text(
+                  "20:24",
+                  style: TextStyle(
+                    fontSize: 12.0,
+                    // color: Colors.black.withOpacity(0.45),
+                    color: Color(0xff00A884),
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Color(0xff00A884),
+                  ),
+                  child: Text(
+                    "9",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12.0,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           );
         },
       ),
