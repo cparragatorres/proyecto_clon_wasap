@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       title: "WhatsApp Clone",
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          color: Color(0xff065e52),
+          color: Color(0xff008069),
         ),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
-          backgroundColor: Color(0xff01c851),
+          backgroundColor: Color(0xff00A884),
         ),
       ),
       home: HomePage(),
