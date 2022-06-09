@@ -22,8 +22,8 @@ List<ChatModel> chatList = [
     username: "Charito APK",
     message: "Te pasas en serio",
     time: "21:35",
-    countMessage: 1,
-    isTyping: true,
+    countMessage: 0,
+    isTyping: false,
   ),
   ChatModel(
     avatarURL: "https://acortar.link/9nORuJ",
@@ -54,7 +54,7 @@ List<ChatModel> chatList = [
     username: "Juan Carlos",
     message: "Ese es el Phillip Chu Joy",
     time: "14:25",
-    countMessage: 1,
-    isTyping: false,
+    countMessage: 0,
+    isTyping: true,
   ),
 ];

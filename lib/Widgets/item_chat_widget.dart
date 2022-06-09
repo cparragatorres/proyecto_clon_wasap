@@ -47,10 +47,10 @@ class ItemChatWidget extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12.0,
                 // color: Colors.black.withOpacity(0.45),
-                color: Color(0xff00A884),
+                color: chatModel.countMessage > 0 ? Color(0xff00A884) : Colors.black.withOpacity(0.45),
               ),
             ),
-            Container(
+            chatModel.countMessage >0 ? Container(
               height: 20.0,
               width: 20.0,
               decoration: BoxDecoration(
@@ -65,7 +65,7 @@ class ItemChatWidget extends StatelessWidget {
                   fontSize: 12.0,
                 ),
               ),
-            ),
+            ) : Container(child: SizedBox()),
           ],
         ),
       ),
