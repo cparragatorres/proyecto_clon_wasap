@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:proyecto_clon_wasap/Widgets/item_chat_widget.dart';
 import 'package:proyecto_clon_wasap/models/chat_model.dart';
+import 'package:proyecto_clon_wasap/pages/chat_datail_page.dart';
 
 class ItemChatWidget extends StatelessWidget {
 
@@ -15,6 +16,9 @@ class ItemChatWidget extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 8.0),
       child: ListTile(
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context)=> ChatDetailPage()));
+        },
         leading: CircleAvatar(
           backgroundColor: Colors.black12,
           radius: 24,
